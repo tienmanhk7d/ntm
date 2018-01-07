@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*--Body--*/
+body{
+    font-family: sans-serif;
+    color: #333;
+}
+/*--menu--*/
+#menu ul {
+    list-style-type: none;
+    background-color: #1f568b;
+    text-align: center;
+}
+
+#menu ul li{
+    color: #f1f1f1;
+    display: inline-table;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+
+#menu ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+}
+
+#menu ul li a:hover {
+    background:#f1f1f1;
+    color: #222
+}
+
+#menu ul li > .sub-menu {
+    display: none;
+    position: absolute;
+}
+
+#menu ul li:hover .sub-menu {
+    display: block;
+}

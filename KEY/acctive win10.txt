@@ -1,0 +1,33 @@
+﻿- Bước 1:  Cài hoặc update version 1511 hay 1607.
+
+- Bước 2: Kết nối internet - Mở CMD(Admin), 
+
+
+copy và paste hết nhóm lệnh dưới vào.
+
+Cscript slmgr.vbs -upk
+Cscript slmgr.vbs /ckms
+sc config wuauserv start= auto
+net start wuauserv
+Cscript slmgr.vbs /ipk YH7QR-2NMBB-7HJRF-8HP9Y-MY49M
+slui
+exit
+exit
+
+- Bước 3: Bảng nhập key hiện ra, điền key :     NDYW6-WVWBW-C278T-HR2J9-H6B93
+Hoặc:    KGKK4-2JW7F-QR6V7-CT2YW-RMPGK 
+    G4NBP-4CPGH-XXP26-RTHR3-RJMQP
+72F8W-9JHW2-4BQFX-JHK7W-7T7DF
+NW6F8-QVCC2-7C87P-GXCFC-MPYDQ
+    P66VV-VCNQP-XYKGF-X2HPW-9TMDQ
+    TBHWG-FYMC3-GVTF7-B38K2-JQMKV
+
+     (hoặc 1 key win 7, 8 nào còn hay mới hết lượt online)
+                 
+Chờ MS xác nhận rồi bấm Next. Xong.
+
+*** Nếu là version 1607 thì bạn đã có bản quyền số.
+*** Nếu là version 1511, Muốn có bản quyền số(digital entitlement) thì :
+start - settings - activation - change product key
+Điền key: VK7JG-NPHTM-C97JM-9MPGT-3V66T
+và chờ 1 chút để hưởng thành quả.

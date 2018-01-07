@@ -1,0 +1,13 @@
+- Đổi DNS mạng thành: 4-2-2-1 , 4-2-2-2
+
+- Vào Trang này: https://microsoft.gointeract.io/mobileweb/…
+
+- Nhấn chọn số chữ số trên mỗi nhóm của step 2 (6 hoặc 7)
+
+- Chép và dán 9 nhóm step 2 vào 9 ô tương ứng (nhấn thanh Space để chuyển ô)
+
+- Nhấn Submit và chờ chút
+(nếu xuất hiện bảng hỏi how many computer thì gõ số 1 và bấm Submit)
+
+- sẽ được step 3
+

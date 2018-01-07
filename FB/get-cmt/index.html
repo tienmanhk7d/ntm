@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta charset="utf8" />
+<title>Read All Comments and Replies</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body align="center">
+<h1>Facebook Comments Reader</h1>
+<hr>
+<form action="form.php" method="post">
+<div class="form-group has-success has-feedback">
+  <label class="control-label" for="inputGroupSuccess1">Link bài viết</label>
+  <div class="input-group">
+    <span class="input-group-addon">?</span>
+    <input type="text" class="form-control" id="inputGroupSuccess1" aria-describedby="inputGroupSuccess1Status" name="inputPostid" value="Post">
+  </div>
+<div class="form-group">
+ <label class="control-label" for="inputGroupSuccess1">Token</label>
+  <div class="input-group">
+    <span class="input-group-addon">@</span>
+    <input type="password" class="form-control" id="inputGroupSuccess1" aria-describedby="inputGroupSuccess1Status" name="inputToken" value="">
+  </div>
+</div>
+<input type="submit" value="Xem bình luận" class="btn btn-primary btn-lg active"/>
+
+</form>
+<h6>Copyright Minh Dat @ 2017</h6>
+</body>
+</html>
